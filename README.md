@@ -131,7 +131,7 @@ omnitrace/
 
 ```bash
 # 1. Clone
-git clone https://github.com/omnitrace/omnitrace.git
+git clone https://github.com/somansinghal/omnitrace
 cd omnitrace
 
 # 2. Configure Firebase
@@ -247,7 +247,7 @@ We welcome contributions from the community. This is an early-stage product — 
 
 ## 📧 Contact
 
-- **Email:** hello@omnitrace.app
+- **Email:** help.omnitrace@gmail.com
 - **Twitter/X:** [@omnitrace](https://x.com/omnitrace)
 - **LinkedIn:** [OmniTrace](https://linkedin.com/company/omnitrace)
 
