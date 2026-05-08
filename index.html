@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="system" class="preload">
+<head>
+  <script>
+    // Enforce instant preload state to avoid initial flash of wrong layout or styles
+    document.documentElement.classList.add("preload");
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="OmniTrace — Smart Inventory & QR Tracking Platform for Modern Businesses">
+  <meta name="theme-color" content="#6366F1">
+  <title>OmniTrace — Smart Inventory & QR Tracking</title>
+  
+  <style>
+    html.preload {
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+    html.loaded {
+      visibility: visible !important;
+      opacity: 1 !important;
+      transition: opacity 0.4s ease;
+    }
+    html {
+      font-display: swap;
+    }
+  </style>
+
+  <!-- Preloads for critical resources to prevent Cumulative Layout Shift (CLS) -->
+  <link rel="preload" href="/assets/css/global.css" as="style">
+  <link rel="preload" href="/assets/css/components.css" as="style">
+  <link rel="preload" href="/assets/js/store.js" as="script">
+  <link rel="preload" href="/assets/js/router.js" as="script">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>">
+
+  <!-- External SDKs (deferred) -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+</head>
+<body>
+
+  <!-- Single Loader -->
+  <div id="app-loader" class="app-loader">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Loading OmniTrace...</p>
+  </div>
+
+  <!-- Single Container with Exact Source of Truth Structure -->
+  <div id="app" class="app-container hidden">
+    <!-- Sticky top header (logo + hamburger on mobile, full nav on desktop) -->
+    <header id="app-header" class="app-header"></header>
+    
+    <!-- Sidebar drawer (mobile only) -->
+    <aside id="app-sidebar" class="sidebar"></aside>
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <!-- App body — single mount point -->
+    <main id="app-content" class="main-content"></main>
+    
+    <!-- Global Footer -->
+    <footer id="app-footer" class="app-footer"></footer>
+  </div>
+
+  <!-- Global UI roots -->
+  <div id="toast-container" class="toast-container"></div>
+  <div id="modal-root" class="modal-root"></div>
+
+  <!-- Bootstrap (State → Router → Layout) -->
+  <script type="module" src="/components/ui.js"></script>
+  <script type="module" src="/assets/js/store.js"></script>
+  <script type="module" src="/assets/js/router.js"></script>
+  <script type="module" src="/assets/js/layout.js"></script>
+</body>
+</html>
