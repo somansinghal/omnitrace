@@ -7,7 +7,7 @@ const team = [
       name: 'Soman Singhal',
       role: 'Team Leader',
       bio: 'Full-stack developer and startup builder passionate about solving real-world inventory and organization problems through scalable technology. Leads product vision, development, and execution for OmniTrace.',
-      img: 'assets/team/soman.jpg',
+      img: 'assets/team/soman.png',
       linkedin: 'https://linkedin.com/in/soman-singhal',
       instagram: 'https://instagram.com/_somansinghal'
     },
@@ -15,7 +15,7 @@ const team = [
       name: 'Bhavya Giya',
       role: 'Frontend Developer',
       bio: 'Frontend developer focused on crafting clean, responsive, and user-friendly interfaces. Passionate about modern UI/UX design and creating seamless digital experiences.',
-      img: 'assets/team/bhavya.jpg',
+      img: 'assets/team/bhavya.png',
       linkedin: 'https://linkedin.com/in/bhavyagiya2197',
       instagram: 'https://instagram.com/bhavyagiya_21'
     },
@@ -23,7 +23,7 @@ const team = [
       name: 'Prateek Lamoria',
       role: 'Cloud Manager',
       bio: 'Cloud and backend enthusiast specializing in Firebase, cloud infrastructure, and scalable backend integration. Focused on building secure and reliable systems for modern applications.',
-      img: 'assets/team/prateek.jpg',
+      img: 'assets/team/prateek.png',
       linkedin: 'https://linkedin.com/in/prateek-lamoria-77a293387',
       instagram: 'https://instagram.com/prateek_lamoria'
     },
@@ -31,7 +31,7 @@ const team = [
       name: 'Krish Panchal',
       role: 'Hardware & Integration Lead',
       bio: 'Hardware integration and IoT enthusiast passionate about connecting physical systems with smart digital solutions. Focused on practical innovation and seamless tech integration.',
-      img: 'assets/team/krish.jpg',
+      img: 'assets/team/krish.png',
       linkedin: 'https://linkedin.com/in/krish-panchal-7103a3396',
       instagram: 'https://instagram.com/krrish.on'
     },
@@ -39,7 +39,7 @@ const team = [
       name: 'Kartikay Shekhawat',
       role: 'AI & Documentation Lead',
       bio: 'AI-focused developer with strong interest in intelligent systems, automation, and technical documentation. Dedicated to making complex technologies easier to understand and use.',
-      img: 'assets/team/kartikay.jpg',
+      img: 'assets/team/kartikay.png',
       linkedin: 'https://linkedin.com/in/kartikey-shekhawat-b2aa103b7',
       instagram: 'https://instagram.com/banna__kartikey_'
     }
