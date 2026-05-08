@@ -9,7 +9,7 @@
 **Track every item. Verify every scan.**  
 A modern, real-time inventory tracking platform built with Firebase and vanilla JavaScript.
 
-[Live Demo](https://omnitrace.app/demo) · [Documentation](https://omnitrace.app/docs) · [Request Access](https://omnitrace.app/signup)
+[Live Demo](https://omnitrace-in.vercel.app) · [Documentation](https://omnitrace-in.vercel.app/docs) · [Request Access](https://omnitrace-in.vercel.app/signup)
 
 </div>
 
@@ -248,8 +248,8 @@ We welcome contributions from the community. This is an early-stage product — 
 ## 📧 Contact
 
 - **Email:** help.omnitrace@gmail.com
-- **Twitter/X:** [@omnitrace](https://x.com/omnitrace)
-- **LinkedIn:** [OmniTrace](https://linkedin.com/company/omnitrace)
+- **Twitter/X:** [@omnitrace](https://x.com/OmniTrace)
+- **Instagram:** [OmniTrace](https://www.instagram.com/omnitrace.india/)
 
 ---
 
